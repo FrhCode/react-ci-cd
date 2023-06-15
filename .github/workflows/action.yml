@@ -33,5 +33,5 @@ jobs:
       - name: build project
         run : npm run build
 
-      - name: serve project
-        run : echo "App Running on port 3000"
+      - name: print data
+        run : echo "${{ toJSON(github) }}"
