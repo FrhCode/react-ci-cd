@@ -34,4 +34,4 @@ jobs:
         run : npm run build
 
       - name: print data
-        run : echo "${{ toJSON(github) }}"
+        run : echo "${{ github }}"
